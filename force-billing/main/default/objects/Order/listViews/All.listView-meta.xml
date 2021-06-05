@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>ORDER.NAME</columns>
+    <columns>NumberOfLines__c</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>Invoiced__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>All</label>
+</ListView>

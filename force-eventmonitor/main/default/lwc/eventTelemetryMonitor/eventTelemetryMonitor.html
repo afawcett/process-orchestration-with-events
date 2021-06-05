@@ -1,0 +1,13 @@
+<template>
+    <lightning-card>
+        <div style="height: 300px;">
+            <lightning-datatable
+                key-field="ReplayId"
+                data={eventData}
+                show-row-number-column
+                hide-checkbox-column
+                columns={columns}>
+            </lightning-datatable>
+        </div>        
+    </lightning-card>
+</template>

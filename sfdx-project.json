@@ -1,0 +1,23 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app"
+    },
+    {
+      "path": "force-brf"
+    },
+    {
+      "path": "force-eventmonitor"
+    }, 
+    {
+      "path": "force-billing",
+      "default": true      
+    },
+    {
+      "path": "force-customnotification"
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "47.0"
+}
